@@ -1,0 +1,10 @@
+version 2.0
+config setup
+  nat_traversal=yes
+  virtual_private=%v4:10.0.0.0/8,%v4:192.168.1.0/16,%v4:172.16.0.0/12
+  oe=off
+  protostack=netkey
+
+include /etc/ipsec.d/l2tp-psk.conf
+#TODO: remove this
+#inserting comment to avoid parsing bug

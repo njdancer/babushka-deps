@@ -1,0 +1,12 @@
+[global]
+ipsec saref = yes
+
+[lns default]
+ip range = <%= var :vpn_subnet, :default => '10.0.0.2-10.0.0.255' %>
+local ip = <%= var :vpn_gateway, :default => '10.0.0.1' %>
+refuse chap = yes
+refuse pap = yes
+require authentication = yes
+ppp debug = yes
+pppoptfile = /etc/ppp/options.xl2tpd
+length bit = yes
