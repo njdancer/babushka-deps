@@ -28,3 +28,7 @@ dep 'JewelryBox.installer' do
   source 'http://jewelrybox.unfiniti.com/download/JewelryBox_v1.1.1.pkg'
   provides 'JewelryBox.app'
 end
+
+dep 'Transmission.app' do
+ source 'http://download.transmissionbt.com/files/Transmission-2.13.dmg'
+end
