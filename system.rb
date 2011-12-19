@@ -1,6 +1,6 @@
 dep 'dancers-air' do
   # App Bundles
-  # requires 'Skype.app'
+  requires 'Skype.app'
   # requires 'Parallels Desktop.app'
   requires 'Dropbox.app'
   requires '1Password.app'
