@@ -5,6 +5,7 @@ dep 'dancers-air' do
   requires 'Dropbox.app'
   requires '1Password.app'
   requires 'JewelryBox.installer'
+  requires 'Transmission.app'
   
   requires 'up to date flash player'
   requires 'ClickToPlugin.safariextz'
@@ -20,4 +21,6 @@ dep 'dancers-air' do
   requires 'finder shows hidden files'
   
   requires 'rails development environment'
+  
+  requires 'benhoskings:dot files'
 end
