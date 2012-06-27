@@ -3,7 +3,7 @@ dep 'Parallels Desktop.app' do
 end
 
 dep 'Skype.app' do
-  source 'http://download.skype.com/macosx/Skype_2.8.0.851.dmg'
+  source 'http://skype.com/go/getskype-macosx'
 end
 
 dep 'Dropbox.app' do
