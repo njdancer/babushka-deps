@@ -4,8 +4,8 @@ dep 'dancers-air' do
   # requires 'Parallels Desktop.app'
   requires 'Dropbox.app'
   requires '1Password.app'
-  requires 'JewelryBox.installer'
-  requires 'Transmission.app'
+  requires 'JewelryBox.app'
+  # requires 'Transmission.app'
   
   requires 'up to date flash player'
   requires 'ClickToPlugin.safariextz'
