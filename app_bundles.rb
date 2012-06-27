@@ -24,9 +24,10 @@ dep 'textmate helper' do
   meet { shell "ln -sf '#{app_dir('TextMate.app') / 'Contents/SharedSupport/Support/bin/mate'}' /usr/local/bin/mate" }
 end
 
-dep 'JewelryBox.installer' do
-  source 'http://jewelrybox.unfiniti.com/download/JewelryBox_v1.1.1.pkg'
-  provides 'JewelryBox.app'
+dep 'JewelryBox.app' do
+  source L { "http://jewelrybox.unfiniti.com/download/JewelryBox_v#{version}.tar.bz2" }
+  latest_version { '1.3' }
+  current_version { |path| bundle_version(path, 'CFBundleVersion') }
 end
 
 dep 'Transmission.app' do
