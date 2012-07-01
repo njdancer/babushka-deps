@@ -25,9 +25,7 @@ dep 'textmate helper' do
 end
 
 dep 'JewelryBox.app' do
-  source L { "http://jewelrybox.unfiniti.com/download/JewelryBox_v#{version}.tar.bz2" }
-  latest_version { '1.3' }
-  current_version { |path| bundle_version(path, 'CFBundleVersion') }
+  source L { "http://jewelrybox.unfiniti.com/download/JewelryBox_v1.3.tar.bz2" }
 end
 
 dep 'Transmission.app' do
